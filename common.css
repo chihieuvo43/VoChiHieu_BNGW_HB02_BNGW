@@ -1,0 +1,49 @@
+*, *::after, *::before {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EEEEED;
+}
+
+.content {
+    width: 300px;
+    margin: auto;
+}
+
+.productCard {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.productCard img {
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+.productName{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size: 1.5rem;
+    color: green;
+    padding: 0px 20px 10px 20px;
+}
+
+.productPirce {
+    padding: 0px 20px 10px 20px;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.discount {
+    padding-right: 30px;
+}
+
+.price {
+    color: gray;
+    text-decoration: line-through;
+}
